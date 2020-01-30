@@ -25,8 +25,6 @@ instance Eq DayOfWeek where
 data Date =
   Date DayOfWeek Int
 
-
-
 instance Eq Date where
        -- Date param one with labelled arguments
   (==) (Date weekday dayOfMonth)
